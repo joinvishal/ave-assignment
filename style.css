@@ -616,10 +616,11 @@
             height: 0;
             overflow-y: hidden;
             color: #ffff;
+            z-index: 1;
         }
         .nav-bar.change {
             height: 45vh;
-            width: 68vh;
+            width: 63.5vh;
             display: inline-block;
             margin-top: 91px;
             background-image: linear-gradient(to top left, #1DE1BC 0%, #DA0BEE 100%);
