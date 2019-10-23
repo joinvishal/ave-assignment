@@ -6,6 +6,12 @@
     
     body {
         font-family: "Roboto", sans-serif;
+        margin-bottom: 340px;
+    }
+    
+    html,
+    body {
+        background-color: #fff;
     }
     
     .wrapper {
@@ -392,6 +398,9 @@
     .footer-container {
         width: 100%;
         background: linear-gradient(270deg, #fc8484 0%, #ac1de1 100%);
+        position: fixed;
+        bottom: 0;
+        z-index: -1;
     }
     
     h4 {
