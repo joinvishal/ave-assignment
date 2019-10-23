@@ -4,12 +4,13 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ave</title>
+    <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="simpletextrotator.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -24,7 +25,9 @@
                 <div class="nav-menu">
                     <ul class="nav-bar">
                         <li><strike>HOME</strike></li>
-                        <li>ABOUT ME</li>
+                        <a href=" https://vishalsingh28.github.io/ave-about-us/" style="text-decoration: none;" target="blank">
+                            <li>ABOUT ME</li>
+                        </a>
                         <li>BLOG</li>
                         <li>CONTACT</li>
                     </ul>
@@ -33,7 +36,7 @@
         </div>
     </div>
     <!--heading section-->
-    <div class="heading-container">
+    <div class="heading-container" data-aos="fade-up">
         <div class="wrapper">
             <h1>I'am passionate person</h1>
             <h2>Designer <span class="rotate">retouching, Photography, illustration</span></h2>
@@ -44,7 +47,7 @@
     <!--top image section-->
     <div class="top-img-container">
         <div class="wrapper">
-            <div class="img-content">
+            <div class="img-content" data-aos="fade-up">
                 <div class="img-one"></div>
                 <div class="img-right">
                     <div class="img-two"></div>
@@ -56,7 +59,7 @@
     <!--down image section-->
     <div class="down-img-container">
         <div class="wrapper">
-            <div class="down-img-content">
+            <div class="down-img-content" data-aos="fade-up">
                 <div class="down-img-left">
                     <div class="img-four"></div>
                     <div class="img-five"></div>
@@ -70,7 +73,7 @@
     <!--good section-->
     <div class="good-container">
         <div class="wrapper">
-            <div class="good-content">
+            <div class="good-content" data-aos="fade-up">
                 <div class="img-eight"></div>
                 <div class="g-right">
                     <h3>I'm good at: </h3>
@@ -116,6 +119,7 @@
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script src="jquery.simple-text-rotator.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="main.js"></script>
 
 </body>

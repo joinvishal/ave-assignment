@@ -737,6 +737,12 @@
             top: 40%;
             left: 25%;
         }
+        .p-left p {
+            font-size: 11px;
+        }
+        .p-right p {
+            font-size: 11px;
+        }
     }
     
     @media (max-width:325px) {

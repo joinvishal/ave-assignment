@@ -11,3 +11,7 @@ $(".rotate").textrotator({
     separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
     speed: 2000 // How many milliseconds until the next word show.
 });
+AOS.init({
+    duration: 2000,
+    once: true,
+});
