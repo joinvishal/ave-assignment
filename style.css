@@ -15,8 +15,11 @@
     }
     
     .wrapper {
-        width: 85%;
+        width: 100%;
+        max-width: 1170px;
         margin: 0 auto;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     /* header container style */
     
@@ -119,7 +122,7 @@
     }
     
     .img-one {
-        width: 565px;
+        width: 550px;
         height: 548px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/1-1.jpg);
         background-position: center;
@@ -148,7 +151,7 @@
     
     .img-two {
         width: 550px;
-        height: 261px;
+        height: 262px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/2.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -176,7 +179,7 @@
     
     .img-three {
         width: 550px;
-        height: 261px;
+        height: 262px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/3.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -201,11 +204,11 @@
         transform: scaleX(1);
         transition: all 0.5s ease-in-out;
     }
-    /* top img container style */
+    /* down img container style */
     
     .down-img-container {
         width: 100%;
-        padding-top: 40px;
+        padding-top: 24px;
     }
     
     .down-img-content {
@@ -221,7 +224,7 @@
     
     .img-four {
         width: 262px;
-        height: 260px;
+        height: 261px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/4.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -249,7 +252,7 @@
     
     .img-five {
         width: 262px;
-        height: 260px;
+        height: 261px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/7.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -276,7 +279,7 @@
     }
     
     .img-six {
-        width: 565px;
+        width: 555px;
         height: 544px;
         background-image: url(http://portfolio.liquid-themes.com/wp-content/uploads/2018/09/5.jpg);
         background-position: center;
@@ -491,16 +494,24 @@
     
     @media (max-width:768px) {
         .img-one {
-            width: 350px;
+            width: 400px;
             height: 348px;
         }
         .img-two {
-            width: 280px;
+            width: 300px;
             height: 160px;
         }
         .img-three {
-            width: 280px;
+            width: 300px;
             height: 160px;
+        }
+        .img-four {
+            width: 400px;
+            height: 260px;
+        }
+        .img-five {
+            width: 400px;
+            height: 260px;
         }
         .down-img-content {
             display: flex;
@@ -508,13 +519,13 @@
             flex-wrap: wrap;
         }
         .img-six {
-            width: 370px;
+            width: 300px;
             height: 544px;
         }
         .img-seven {
-            width: 700px;
+            width: 768px;
             height: 543px;
-            margin-top: 30px;
+            margin-top: 20px;
         }
         .good-content {
             display: flex;
