@@ -446,7 +446,7 @@
         padding-left: 10px;
     }
     
-    @media (max-width:1024px) {
+    @media (max-width:1170px) {
         .img-one {
             width: 420px;
             height: 478px;
@@ -492,7 +492,7 @@
         }
     }
     
-    @media (max-width:768px) {
+    @media (max-width:1169px) {
         .img-one {
             width: 400px;
             height: 348px;
@@ -560,7 +560,7 @@
         }
     }
     
-    @media (max-width:425px) {
+    @media (max-width:767px) {
         .header-container {
             background-color: #f6f6f6;
             padding-top: 0;
